@@ -52,7 +52,7 @@ class RegisterController extends \BaseController {
                     'firstname'       => 'required',
                     'surname'      	  => 'required',
                     'email'           => 'required|email',
-					'daytimecontact'  => 'required',
+					'daytimecontact'  => 'regex:/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/',
                     'address'         => 'required',
                     'suburb'   		  => 'required',
 					'state'           => 'required',
@@ -61,6 +61,13 @@ class RegisterController extends \BaseController {
 					//'productname'     => 'required_if_attribute:enquirytype,==,3',
 					'enquiry'         => ''
                 ) ;
+				
+				$messages = array(
+                               
+                                'daytimecontact.regex' => 'The :attribute number is invalid , accepted format: xxx-xxx-xxxx',
+                                
+                               );
+                           
 				
 			
 			if(count($dependent)>0){
@@ -86,7 +93,7 @@ class RegisterController extends \BaseController {
                     Register::saveFormData(Input::except(array('_token','cpassword')));
 
                     return Redirect::to('register')
-                            ->withMessage('Data inserted');
+                            ->withMessage('Data has been added successfully.');
             }
 		
 	}

@@ -12,11 +12,21 @@ body {
 
 h2{
 	font-family: 'Oswald', sans-serif;
+	margin: 0 0 0 0;
+	padding: 0;
+	color: #4472b9;
+}
+p{
+	background: none repeat scroll 0 0 #d9edf7;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    padding: 5px;
+	text-align: center;
 }
 
 #containner{
 	margin: 0 auto;
-	width: 580px;
+	width: 650px;
 }
 .input-square{
 	background-color: #fdfdfd;
@@ -105,4 +115,15 @@ textarea{
     padding: 0;*/	
 	
 }
+
+span.error{
+ color: #f00;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 17px;
+	}
 
