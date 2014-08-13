@@ -1,0 +1,108 @@
+body {
+	/*padding-top: 40px;
+	background-color:#999;*/
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v9/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+#containner{
+	margin: 0 auto;
+	width: 580px;
+}
+.input-square{
+	background-color: #fdfdfd;
+    border: 1px solid #98b5cb;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #dfdfdf inset !important;
+    color: #3e3d3d;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 32px;
+    margin: 12px 0 0 5px;
+    outline-color: #dceefc;
+    outline-offset: 0;
+    width: 270px;
+	float: left;
+	padding: 0 10px;
+}
+select{
+	background-color: #fdfdfd;
+    border: 1px solid #98b5cb;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #dfdfdf inset !important;
+    color: #3e3d3d;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 32px;
+    margin: 12px 0 0 5px;
+    outline-color: #dceefc;
+    outline-offset: 0;
+    width: 292px;
+	float: left;
+	padding: 0 10px;
+}
+textarea{
+	background-color: #fdfdfd;
+    border: 1px solid #98b5cb;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #dfdfdf inset !important;
+    color: #3e3d3d;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 80px;
+    margin: 12px 0 0 5px;
+    outline-color: #dceefc;
+    outline-offset: 0;
+    width: 270px;
+	float: left;
+	padding: 5px 10px;
+}
+.submit-btn{
+	background: #4472b9;
+    border: 5px solid #4472b9;
+    border-radius:5px;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.22);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 16px;
+    position: relative;
+    transition: all 0.1s ease 0s;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 10px 0 0 5px;
+	cursor: pointer;
+}
+
+.ind-title{
+	color: #6b6b6b;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: -3px -40px 0 0;
+    padding-top: 15px;
+    width: 250px;	
+	
+}
+
+.star{
+	
+  	color: #ff0000;
+    /*float: left;
+    margin: 5px 10px 0 -7px;
+    padding: 0;*/	
+	
+}
+
